@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Open_Date__c</fullName>
+    <description>This field will be filled when the activity status updates to &quot;Open&quot; from &quot;Draft.&quot;</description>
+    <externalId>false</externalId>
+    <label>Task Open Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dispatched</fullName>
+                <default>false</default>
+                <label>Dispatched</label>
+            </value>
+            <value>
+                <fullName>Received</fullName>
+                <default>false</default>
+                <label>Received</label>
+            </value>
+            <value>
+                <fullName>To Be Dispatched</fullName>
+                <default>false</default>
+                <label>To Be Dispatched</label>
+            </value>
+            <value>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+                <label>Not Received</label>
+            </value>
+            <value>
+                <fullName>Submited For Review</fullName>
+                <default>false</default>
+                <label>Submited For Review</label>
+            </value>
+            <value>
+                <fullName>Deviation Approved</fullName>
+                <default>false</default>
+                <label>Deviation Approved</label>
+            </value>
+            <value>
+                <fullName>Deviation Rejected</fullName>
+                <default>false</default>
+                <label>Deviation Rejected</label>
+            </value>
+            <value>
+                <fullName>Submitted for Deviation Approval</fullName>
+                <default>false</default>
+                <label>Submitted for Deviation Approval</label>
+            </value>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+                <label>Uploaded</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Re-Assigned</fullName>
+                <default>false</default>
+                <label>Re-Assigned</label>
+            </value>
+            <value>
+                <fullName>Handed Over Successfully</fullName>
+                <default>false</default>
+                <label>Handed Over Successfully</label>
+            </value>
+            <value>
+                <fullName>To Be Handed Over</fullName>
+                <default>false</default>
+                <label>To Be Handed Over</label>
+            </value>
+            <value>
+                <fullName>Submit For Review</fullName>
+                <default>false</default>
+                <label>Submit For Review</label>
+            </value>
+            <value>
+                <fullName>Change of Payment Mode</fullName>
+                <default>false</default>
+                <label>Change of Payment Mode</label>
+            </value>
+            <value>
+                <fullName>Wrong Check Details</fullName>
+                <default>false</default>
+                <label>Wrong Check Details</label>
+            </value>
+            <value>
+                <fullName>Exempted</fullName>
+                <default>false</default>
+                <label>Exempted</label>
+            </value>
+            <value>
+                <fullName>Physical Document Pending</fullName>
+                <default>false</default>
+                <label>Physical Document Pending</label>
+            </value>
+            <value>
+                <fullName>Document Storage</fullName>
+                <default>false</default>
+                <label>Document Storage</label>
+            </value>
+            <value>
+                <fullName>Physically Stored</fullName>
+                <default>false</default>
+                <label>Physically Stored</label>
+            </value>
+            <value>
+                <fullName>Memo Executed</fullName>
+                <default>false</default>
+                <label>Memo Executed</label>
+            </value>
+            <value>
+                <fullName>Submitted For Execution</fullName>
+                <default>false</default>
+                <label>Submitted For Execution</label>
+            </value>
+            <value>
+                <fullName>Alternate Document Added</fullName>
+                <default>false</default>
+                <label>Alternate Document Added</label>
+            </value>
+            <value>
+                <fullName>Request Cancellation</fullName>
+                <default>false</default>
+                <label>Request Cancellation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

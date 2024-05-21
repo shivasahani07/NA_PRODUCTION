@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_get_to_know_about_NACL__c</fullName>
+    <externalId>false</externalId>
+    <label>How did you get to know about NACL ?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Institute</fullName>
+                <default>false</default>
+                <label>Institute</label>
+            </value>
+            <value>
+                <fullName>Friend</fullName>
+                <default>false</default>
+                <label>Friend</label>
+            </value>
+            <value>
+                <fullName>NACL Employee</fullName>
+                <default>false</default>
+                <label>NACL Employee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

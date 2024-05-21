@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Repayment_Schedule</fullName>
+    <active>true</active>
+    <label>Repayment Schedule</label>
+    <picklistValues>
+        <picklist>Mode__c</picklist>
+        <values>
+            <fullName>Cheque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deduction at Source</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Funded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receivable Created</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>CERSAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST Processing Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST on CERSAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre EMI Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre EMI Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sanction Amount</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Validation_Customer_Details</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  !CONTAINS( $Label.Case_No_Validation_SubCategory , text( Sub_Category__c )),!CONTAINS( $Label.Case_Validation_Rule_Exception_User_List ,   $User.LastName),!ISBLANK(text(Type  )) , text(Status)  &lt;&gt; &apos;Duplicate&apos; , ISBLANK(AccountId ) , OR (
+ISBLANK( Cust_ID__c )
+,ISBLANK(  Customer_Mobile_No__c )
+,ISBLANK(   Customer_Name__c )
+,ISBLANK(text(Customer_Type__c))
+,ISBLANK(text(Partner_Name__c))
+))</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Fill in the Customer Details
+Either Select Account Number or Fill Cust ID, Customer Type, Customer Name, Customer Mobile No, Partner Name</errorMessage>
+</ValidationRule>

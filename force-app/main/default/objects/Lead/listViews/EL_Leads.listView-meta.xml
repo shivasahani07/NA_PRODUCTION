@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EL_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Lead_Owned_By__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Product_Interested__c</field>
+        <operation>equals</operation>
+        <value>Education Loan</value>
+    </filters>
+    <label>My Leads - LifeTime</label>
+</ListView>

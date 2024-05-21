@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch_Operations_Ratlam_Task_History_Matrix</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Branch Operations - Ratlam</label>
+    <queue>Branch_Operations_Ratlam</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

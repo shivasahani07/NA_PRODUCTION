@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EL_GeoTagg_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>and( ISCHANGED(Status) , text(Status) != &apos;Open&apos;  ,ISBLANK(Address__c), Process_Attribute_Details__r.Process_Attribute__r.Name = &apos;PA-00222&apos;)</errorConditionFormula>
+    <errorMessage>Please Use Next Action to Close the Task</errorMessage>
+</ValidationRule>

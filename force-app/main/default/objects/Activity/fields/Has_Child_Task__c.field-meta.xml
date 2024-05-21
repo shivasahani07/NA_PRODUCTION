@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Child_Task__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To check this box true if child task has the current task as parent task</description>
+    <externalId>false</externalId>
+    <label>Has Child Task</label>
+    <type>Checkbox</type>
+</CustomField>

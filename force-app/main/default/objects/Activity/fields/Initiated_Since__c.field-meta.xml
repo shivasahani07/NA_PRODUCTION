@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initiated_Since__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ABS(DATETIMEVALUE( Initiated_Date__c ) - DATETIMEVALUE(TODAY())) &lt; ABS(DATETIMEVALUE( Initiated_Date__c ) - DATETIMEVALUE(CompletedDateTime)),ABS(DATETIMEVALUE( Initiated_Date__c ) - DATETIMEVALUE(TODAY())),ABS(DATETIMEVALUE( Initiated_Date__c ) - DATETIMEVALUE(CompletedDateTime)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Initiated Since</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

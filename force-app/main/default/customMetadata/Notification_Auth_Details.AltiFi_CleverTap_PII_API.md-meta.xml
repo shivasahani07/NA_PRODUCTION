@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>AltiFi CleverTap PII API</label>
+    <protected>false</protected>
+    <values>
+        <field>API_Key__c</field>
+        <value xsi:type="xsd:string">NAC_ALTIFI</value>
+    </values>
+    <values>
+        <field>Content_Type__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Decryptionkey__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">It will be used to Fetch data of the customer from the AltiFi Database</value>
+    </values>
+    <values>
+        <field>EncryptionKey__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>End_Point__c</field>
+        <value xsi:type="xsd:string">https://invest.northernarc.com/wm/api/user/salesForceUserInfo?userId=</value>
+    </values>
+    <values>
+        <field>Group_Key__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Method__c</field>
+        <value xsi:type="xsd:string">GET</value>
+    </values>
+    <values>
+        <field>Sample_Body__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Source_Facility__c</field>
+        <value xsi:type="xsd:string">AltiFiData_CustomerPII</value>
+    </values>
+</CustomMetadata>

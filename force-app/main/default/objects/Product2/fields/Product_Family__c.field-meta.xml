@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Product_Family</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Investment</controllingFieldValue>
+            <valueName>AltiFi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan</controllingFieldValue>
+            <valueName>Education Loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan</controllingFieldValue>
+            <valueName>Loan Against Property</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

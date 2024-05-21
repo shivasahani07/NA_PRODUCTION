@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tobe_Completed_In__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( DATETIMEVALUE(TODAY()) - DATETIMEVALUE(ActivityDate) &gt; 0, 0 , ABS(DATETIMEVALUE(TODAY()) - DATETIMEVALUE(ActivityDate)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tobe Completed In</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Call_Purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Meeting/Call Purpose</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+                <label>Cold Call</label>
+            </value>
+            <value>
+                <fullName>Follow-up</fullName>
+                <default>false</default>
+                <label>Follow-up</label>
+            </value>
+            <value>
+                <fullName>Lead Generation</fullName>
+                <default>false</default>
+                <label>Lead Generation</label>
+            </value>
+            <value>
+                <fullName>Scheduled Meeting</fullName>
+                <default>false</default>
+                <label>Scheduled Meeting</label>
+            </value>
+            <value>
+                <fullName>Document Pick up</fullName>
+                <default>false</default>
+                <label>Document Pick up</label>
+            </value>
+            <value>
+                <fullName>Collection Call</fullName>
+                <default>false</default>
+                <label>Collection Call</label>
+            </value>
+            <value>
+                <fullName>CamsPay FAILURE : Call the Customer</fullName>
+                <default>false</default>
+                <label>CamsPay FAILURE : Call the Customer</label>
+            </value>
+            <value>
+                <fullName>Transaction Summary opened PG not opened  : Call the Customer</fullName>
+                <default>false</default>
+                <label>Transaction Summary opened PG not opened  : Call the Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

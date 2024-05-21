@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Document_Dispatch_Path__c</fullName>
+    <externalId>false</externalId>
+    <label>Process Document Dispatch Path</label>
+    <referenceTo>Process_Document_Dispatch_Path__c</referenceTo>
+    <relationshipLabel>Process Document Dispatch Path Details</relationshipLabel>
+    <relationshipName>Process_Document_Dispatch_Path_Details</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

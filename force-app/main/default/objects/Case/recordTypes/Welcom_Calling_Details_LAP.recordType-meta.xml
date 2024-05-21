@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Welcom_Calling_Details_LAP</fullName>
+    <active>true</active>
+    <businessProcess>Case Process</businessProcess>
+    <label>Welcom Calling Details - LAP</label>
+    <picklistValues>
+        <picklist>Case_Source__c</picklist>
+        <values>
+            <fullName>DSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAC Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nodal Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Field Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RBI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Bureau Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unaware of Partnership</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Type__c</picklist>
+        <values>
+            <fullName>Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loan_Category__c</picklist>
+        <values>
+            <fullName>Line of credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SBL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Name__c</picklist>
+        <values>
+            <fullName>AIF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Altifi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blackbuck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CapitalFloat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cashe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chqbook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cointribe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DKGFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DVARAMoney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EarlySalary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAIRMONEY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FINNABLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finplex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indifi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kissht</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Krazybee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LendingKart</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINTIFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONEYONCLICK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobikwik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MoneyView</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOCPL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Namdev</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neogrowth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTOCapital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OrangeFinance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OrigoFinance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OyeFintech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAHAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAYTM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRAGATI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paysense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prayaan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SINDU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLICEPAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMARTCOIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMECorner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SONATA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STASHFIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sammunati</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Svasti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taraashna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>True Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UDAAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unicard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VELOCITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Witfin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZIEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZestMoney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>others</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>AltiFi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Origination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Against Property</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Category__c</picklist>
+        <values>
+            <fullName>Additional%2FDeletion Nominee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amount Not Debited From Bank Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>App Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank account number change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Branch address</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bureau And NOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bureau Not Updated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bureau Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel insurance policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel my loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Email Id</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Of Bank Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Tenor of Loan %28Inc%2FDec%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection Call %2F Email %2F SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DND Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DO Mails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DPD Correction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disbursement Related Amount Not Credited-</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disbursement related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Double Disbursement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Mandate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Mandate Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Nach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI Date change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI Double Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI Due Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI not debited%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI not started yet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI%2F PEMI Debit Communication not received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI%2F PEMI Excess Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI%2F PEMI Not Debited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMI%2F PEMI interchanged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email ID change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emi Amount Received Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emi Bounced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emi Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emi Wrongly Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emi amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee-DSA-Collection agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error in Registration %2F Unable to register</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excess EMI debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fore closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forgery%2F Fraud committed in Loan Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST Invoice required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GST number submission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harasment Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interest Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limit Increase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Line of credit closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>List of Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>List of documents required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Agreement Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Amount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Cancellation Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Not Taken By Self</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Not Taken From NACL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Resturcturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Sanction Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Settlement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan account details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan application status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan closure payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mandate still not registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Mails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misselling of Loan Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Number change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moratorium Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NACH Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NDC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NDC %2F Collateral Documents %2FPDC Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Name Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Loan Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No due certificate required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overdue Payment %2F Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overdue issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partpayment Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment link not working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penal Charges Refund %2F Waiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Disbursal Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Closure Charges Waiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-closure statement Retention%2F Rejection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-closure statement payment%2F issuance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing Charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing Fee Refund%2F Waiver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processing fee debit note</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provisional Interest Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROI Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROI Switch fee payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repayment Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request For Bureau Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request For EMI Date Chage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request change in email id</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for Phone number change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restructure request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOA Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sanction Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sanction Limit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Mails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Statement Of Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Statement of Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status of swapped mandate registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suppression</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swap Mandates process%2F payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TDS Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TDS Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenure Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable To Access Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to download statement %2F documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiver Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Letter%2F Kit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong or Missing account %2F profile details</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Status__c</picklist>
+        <values>
+            <fullName>Awaited Customer Reply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaited Partner Reply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Operations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

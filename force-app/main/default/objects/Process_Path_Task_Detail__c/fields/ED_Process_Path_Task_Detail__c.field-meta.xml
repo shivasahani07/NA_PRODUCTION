@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ED_Process_Path_Task_Detail__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Contain the value of the Process Path Task Detail post the closer of which this Process Path Task Detail will be created</description>
+    <externalId>false</externalId>
+    <label>Execution Dependent On PPathTD</label>
+    <referenceTo>Process_Path_Task_Detail__c</referenceTo>
+    <relationshipLabel>Process Path Task Details</relationshipLabel>
+    <relationshipName>Process_Path_Details</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

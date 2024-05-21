@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sobject_RecordType_Name__c</fullName>
+    <defaultValue>&apos;Master&apos;</defaultValue>
+    <externalId>false</externalId>
+    <label>Sobject RecordType Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Do Onboarding</fullName>
+                <default>false</default>
+                <label>Do Onboarding</label>
+            </value>
+            <value>
+                <fullName>Business Team EL</fullName>
+                <default>false</default>
+                <label>Business Team EL</label>
+            </value>
+            <value>
+                <fullName>Business Team AltiFi</fullName>
+                <default>false</default>
+                <label>Business Team AltiFi</label>
+            </value>
+            <value>
+                <fullName>Welcome Calling Details - DO</fullName>
+                <default>false</default>
+                <label>Welcome Calling Details - DO</label>
+            </value>
+            <value>
+                <fullName>Welcome Calling Details - EL</fullName>
+                <default>false</default>
+                <label>Welcome Calling Details - EL</label>
+            </value>
+            <value>
+                <fullName>Welcome Calling Details - LAP</fullName>
+                <default>false</default>
+                <label>Welcome Calling Details - LAP</label>
+            </value>
+            <value>
+                <fullName>Welcome Calling Details - Altifi</fullName>
+                <default>false</default>
+                <label>Welcome Calling Details - Altifi</label>
+            </value>
+            <value>
+                <fullName>Customer Service Investment</fullName>
+                <default>false</default>
+                <label>Customer Service Investment</label>
+            </value>
+            <value>
+                <fullName>Business Team LAP</fullName>
+                <default>false</default>
+                <label>Business Team LAP</label>
+            </value>
+            <value>
+                <fullName>NU Score Payment Schedule Creation</fullName>
+                <default>false</default>
+                <label>NU Score Payment Schedule Creation</label>
+            </value>
+            <value>
+                <fullName>Default</fullName>
+                <default>false</default>
+                <label>Default</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

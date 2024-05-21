@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Interested__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Business_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Education Loan</controllingFieldValue>
+            <valueName>School</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education Loan</controllingFieldValue>
+            <valueName>Skill Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education Loan</controllingFieldValue>
+            <valueName>Coaching Institute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education Loan</controllingFieldValue>
+            <valueName>Career Upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Against Property</controllingFieldValue>
+            <valueName>Tie-ups</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

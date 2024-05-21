@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mode__c</fullName>
+    <externalId>false</externalId>
+    <label>Mode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Payable_Payee_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+                <label>Cheque</label>
+            </value>
+            <value>
+                <fullName>RTGS</fullName>
+                <default>false</default>
+                <label>RTGS</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>UPI</fullName>
+                <default>false</default>
+                <label>UPI</label>
+            </value>
+            <value>
+                <fullName>Sanction Amount</fullName>
+                <default>false</default>
+                <label>Sanction Amount</label>
+            </value>
+            <value>
+                <fullName>Waiver</fullName>
+                <default>false</default>
+                <label>Waiver</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Borrower</controllingFieldValue>
+            <controllingFieldValue>Co-Borrower</controllingFieldValue>
+            <controllingFieldValue>Financial Institute (BT)</controllingFieldValue>
+            <controllingFieldValue>Financial Institute (Debt)</controllingFieldValue>
+            <valueName>Cheque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Borrower</controllingFieldValue>
+            <controllingFieldValue>Co-Borrower</controllingFieldValue>
+            <controllingFieldValue>Financial Institute (BT)</controllingFieldValue>
+            <controllingFieldValue>Financial Institute (Debt)</controllingFieldValue>
+            <valueName>RTGS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

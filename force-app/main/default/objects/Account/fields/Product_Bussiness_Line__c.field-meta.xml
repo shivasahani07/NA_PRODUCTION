@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Bussiness_Line__c</fullName>
+    <defaultValue>&apos;Not Assigned&apos;</defaultValue>
+    <description>To populate the value of business Line from which the account was created</description>
+    <externalId>false</externalId>
+    <label>Product Bussiness Line</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DO</fullName>
+                <default>false</default>
+                <label>DO</label>
+            </value>
+            <value>
+                <fullName>NU Score</fullName>
+                <default>false</default>
+                <label>NU Score</label>
+            </value>
+            <value>
+                <fullName>Nimbus</fullName>
+                <default>false</default>
+                <label>Nimbus</label>
+            </value>
+            <value>
+                <fullName>SCF</fullName>
+                <default>false</default>
+                <label>SCF</label>
+            </value>
+            <value>
+                <fullName>CLM</fullName>
+                <default>false</default>
+                <label>CLM</label>
+            </value>
+            <value>
+                <fullName>EL</fullName>
+                <default>false</default>
+                <label>EL</label>
+            </value>
+            <value>
+                <fullName>LAP</fullName>
+                <default>false</default>
+                <label>LAP</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

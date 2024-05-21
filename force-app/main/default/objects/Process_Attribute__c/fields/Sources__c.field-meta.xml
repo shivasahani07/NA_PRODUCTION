@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sources__c</fullName>
+    <description>Different sources record Generation - to be used in Lead (Lead Source - standard field) and Cases (case_source__c Custom Field)</description>
+    <externalId>false</externalId>
+    <label>Sources</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Sources</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

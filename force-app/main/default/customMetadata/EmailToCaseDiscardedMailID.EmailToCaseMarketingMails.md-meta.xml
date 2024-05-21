@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>EmailToCaseMarketingMails</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Others</value>
+    </values>
+    <values>
+        <field>Email_IDs__c</field>
+        <value xsi:type="xsd:string">angelx@publisher-news.com,
+csr@maheshfoundation.org,
+inc42@publisher-news.com,
+info@credmantra.com,
+info@nyadeko.com,
+info@nyptmail.in,
+info@twitter.com,
+info@vikramrecruiter.com,
+noreply@yammer.com,
+notifications@yammer.com,
+team@gsfindia.com,
+verify.background@sterlingcheck.com,
+support.healthclaims@godigit.com,
+reports.custody@nuvama.com,
+custodysettlement@kotak.com,
+mahesh.shelar@sbilife.co.in,
+indusind_bank@indusind.com, 
+cs.domestic@nuvama.com, 
+custody.services@yesbank.in,
+admin@komrisk.com,
+bsebond@bseindia.in, 
+enq_sbimf@camsonline.com, 
+donotreply@nse.co.in, 
+axis.tmsalert@axisbank.com, 
+cs.instichennai@sbimf.com
+msm@nse.co.in
+custodysettlement@kotak.com
+reports.custody@nuvama.com 
+mahesh.shelar@sbilife.co.in
+rtgsneftalert@icicibank.com
+indusind_bank@indusind.com
+enq_ifmrinvt@camsonline.com
+cs.domestic@nuvama.com
+custody.services@yesbank.in
+admin@komrisk.com
+bsebond@bseindia.in
+enq_sbimf@camsonline.com
+donotreply@nse.co.in 
+axis.tmsalert@axisbank.com
+fundaccounting@nuvama.com 
+accounts@conexindia.com
+compliance@vardhmantrustee.com 
+services@custcomm.icicibank.com
+nse_alerts@nse.co.in</value>
+    </values>
+    <values>
+        <field>Status__c</field>
+        <value xsi:type="xsd:string">Closed</value>
+    </values>
+    <values>
+        <field>Sub_Category__c</field>
+        <value xsi:type="xsd:string">Marketing Mails</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">Query</value>
+    </values>
+</CustomMetadata>

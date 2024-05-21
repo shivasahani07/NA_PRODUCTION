@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>To_Be_Merged_With_PPTD__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>To Be Merged With PPTD</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.isActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Process_Path_Task_Detail__c</referenceTo>
+    <relationshipLabel>Process Path Task Details (To Be Merged With PPTD)</relationshipLabel>
+    <relationshipName>Process_Path_Task_Details_Merge</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

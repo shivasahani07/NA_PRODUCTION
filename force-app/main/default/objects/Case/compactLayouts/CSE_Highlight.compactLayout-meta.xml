@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSE_Highlight</fullName>
+    <fields>CaseNumber</fields>
+    <fields>Customer_Mobile_No__c</fields>
+    <fields>Type</fields>
+    <fields>Category__c</fields>
+    <fields>Sub_Category__c</fields>
+    <fields>Status</fields>
+    <fields>OwnerId</fields>
+    <label>CSE Highlight</label>
+</CompactLayout>

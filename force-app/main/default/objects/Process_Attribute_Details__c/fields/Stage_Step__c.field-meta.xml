@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Step__c</fullName>
+    <description>To capture the stage of the process. A stage can have one or multiple task associated with it.</description>
+    <externalId>false</externalId>
+    <label>Stage/Step</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Stage</valueSetName>
+    </valueSet>
+</CustomField>

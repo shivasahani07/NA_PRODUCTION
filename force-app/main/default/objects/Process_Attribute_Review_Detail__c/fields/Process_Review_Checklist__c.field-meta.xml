@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Review_Checklist__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Process Review Checklist</label>
+    <referenceTo>Process_Review_Checklist__c</referenceTo>
+    <relationshipLabel>Process Attribute Review Details</relationshipLabel>
+    <relationshipName>Process_Attribute_Review_Details</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

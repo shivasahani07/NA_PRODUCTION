@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Of_Attempts_Allowed__c</fullName>
+    <defaultValue>&apos;1&apos;</defaultValue>
+    <externalId>false</externalId>
+    <label>No Of Attempts Allowed</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SL_No</valueSetName>
+    </valueSet>
+</CustomField>

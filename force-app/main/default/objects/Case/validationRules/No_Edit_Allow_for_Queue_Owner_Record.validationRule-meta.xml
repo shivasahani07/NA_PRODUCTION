@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Edit_Allow_for_Queue_Owner_Record</fullName>
+    <active>false</active>
+    <errorConditionFormula>and
+    (
+        not(isnew()), 
+        not(or(CONTAINS(  $Label.Case_Profile_Name_Allowe_Edit_For_Queue_Owner_Records,$Profile.Name),$Profile.Name = null)),
+        Owner:Queue.Id != null
+
+    )</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Please Accept the case first</errorMessage>
+</ValidationRule>

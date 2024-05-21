@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Task_Closure_Dependent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This flag to be marked true if the parent task&apos;s status is considered to be closed only if the child task status is closed</description>
+    <externalId>false</externalId>
+    <label>Parent Task Closure Dependent</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

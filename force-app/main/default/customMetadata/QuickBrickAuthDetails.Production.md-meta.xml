@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Production</label>
+    <protected>false</protected>
+    <values>
+        <field>Authentication_Key__c</field>
+        <value xsi:type="xsd:string">bcc2b051faf92e055d2c93bdaad14e865e39369121c20005ff0fe9e23fb3d70b</value>
+    </values>
+    <values>
+        <field>Cookie_Key__c</field>
+        <value xsi:type="xsd:string">QSES=jrqgvkd7jeqo8mrd536u2cr545; QSES=7eu5dli36untrdf4scbu7mtar5; PHPSESSID=lpet44s8snh3nm2rdjok7dbks4</value>
+    </values>
+    <values>
+        <field>End_Point_URL__c</field>
+        <value xsi:type="xsd:string">https://c1509.qbrik.in/shakti/api/1/account/viewSchedule?account_no=</value>
+    </values>
+</CustomMetadata>

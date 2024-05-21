@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receivables_Amount__c</fullName>
+    <externalId>false</externalId>
+    <label>Receivables Amount</label>
+    <summarizedField>Receivable__c.Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Receivable__c.Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Receivable__c.Status__c</field>
+        <operation>notEqual</operation>
+        <value>Failed</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Receivable__c.Mode__c</field>
+        <operation>equals</operation>
+        <value>Deduction at Source</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Receivable__c.Financial_Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

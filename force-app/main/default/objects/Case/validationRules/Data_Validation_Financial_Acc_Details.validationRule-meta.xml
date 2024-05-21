@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Validation_Financial_Acc_Details</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(!CONTAINS( $Label.Case_No_Validation_SubCategory , text( Sub_Category__c )),!CONTAINS( $Label.Case_Validation_Rule_Exception_User_List ,   $User.LastName), !ISBLANK(text(Type )) , text(Status) &lt;&gt; &apos;Duplicate&apos; , ISBLANK( Financial_Account__c ) , OR (
+ISBLANK(  Financial_Account_Number__c )
+,ISBLANK(text( Loan_Category__c ))
+))</errorConditionFormula>
+    <errorDisplayField>Financial_Account__c</errorDisplayField>
+    <errorMessage>Fill in the Financial Account Details
+Either Select Financial Account Number or Fill Financial Account Number , Loan Category</errorMessage>
+</ValidationRule>

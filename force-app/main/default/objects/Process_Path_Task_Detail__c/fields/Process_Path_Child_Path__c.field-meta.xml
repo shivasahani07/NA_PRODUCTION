@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Path_Child_Path__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Process Path - Child Path</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <filterItems>
+            <field>Process_Path__c.isActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Process_Path__c.Path_Type__c</field>
+            <operation>equals</operation>
+            <value>Child Path</value>
+        </filterItems>
+        <filterItems>
+            <field>Process_Path__c.Path_Type__c</field>
+            <operation>equals</operation>
+            <value>Re-Open</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Process_Path__c</referenceTo>
+    <relationshipLabel>Process Path Task Details (Process Path - Child Path)</relationshipLabel>
+    <relationshipName>Process_Path_Task_Details1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

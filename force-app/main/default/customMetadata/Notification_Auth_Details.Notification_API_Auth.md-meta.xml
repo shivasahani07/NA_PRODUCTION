@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Notification API Auth</label>
+    <protected>false</protected>
+    <values>
+        <field>API_Key__c</field>
+        <value xsi:type="xsd:string">6a0bd65f4df8912add2baf1dc9c0a6b584b2ca3bdd87ec451b2a4097030ae95e</value>
+    </values>
+    <values>
+        <field>Content_Type__c</field>
+        <value xsi:type="xsd:string">application/json</value>
+    </values>
+    <values>
+        <field>Decryptionkey__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>EncryptionKey__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>End_Point__c</field>
+        <value xsi:type="xsd:string">https://nimbus.northernarc.com/notifications/api/notification</value>
+    </values>
+    <values>
+        <field>Group_Key__c</field>
+        <value xsi:type="xsd:string">SERV_00000000009</value>
+    </values>
+    <values>
+        <field>Method__c</field>
+        <value xsi:type="xsd:string">PUT</value>
+    </values>
+    <values>
+        <field>Sample_Body__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Source_Facility__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

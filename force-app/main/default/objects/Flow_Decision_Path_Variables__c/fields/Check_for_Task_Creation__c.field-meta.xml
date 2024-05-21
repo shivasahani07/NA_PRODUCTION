@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_for_Task_Creation__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>if the variable is true then the path to create the task will get executed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>if the variable is true then the path to create the task will get executed</inlineHelpText>
+    <label>Check_for_Task_Creation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

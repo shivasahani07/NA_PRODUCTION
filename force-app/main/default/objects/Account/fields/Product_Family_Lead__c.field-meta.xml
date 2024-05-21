@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family_Lead__c</fullName>
+    <description>List of product for which a User (employee) can create lead</description>
+    <externalId>false</externalId>
+    <label>Product Family - Lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Product_Family</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

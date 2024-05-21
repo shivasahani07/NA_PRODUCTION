@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overdue_By__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ABS(DATETIMEVALUE(TODAY()) - DATETIMEVALUE( ActivityDate )) &lt; ABS(DATETIMEVALUE( CompletedDateTime ) - DATETIMEVALUE(ActivityDate)),IF(DATETIMEVALUE(TODAY()) - DATETIMEVALUE( ActivityDate ) &lt; 0,0,DATETIMEVALUE(TODAY()) - DATETIMEVALUE( ActivityDate )),IF(DATETIMEVALUE( CompletedDateTime ) - DATETIMEVALUE(ActivityDate) &lt; 0,0,DATETIMEVALUE( CompletedDateTime ) - DATETIMEVALUE(ActivityDate)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Overdue By</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Task_Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>Process Task Detail</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Process_Task_Detail__c.IsActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Process_Task_Detail__c</referenceTo>
+    <relationshipLabel>Process Path Task Details</relationshipLabel>
+    <relationshipName>Process_Path_Task_Details</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

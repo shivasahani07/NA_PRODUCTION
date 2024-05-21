@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch_Operations_Coimbatore_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Branch Operations - Coimbatore</label>
+    <queue>Branch_Operations_Coimbatore</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Case_Sub_Category</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Collection Call / Email / SMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Harasment Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <controllingFieldValue>Loan Closure</controllingFieldValue>
+            <valueName>Loan Settlement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collection</controllingFieldValue>
+            <valueName>Waiver Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Closure</controllingFieldValue>
+            <valueName>Fore closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Closure</controllingFieldValue>
+            <valueName>Line of credit closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Closure</controllingFieldValue>
+            <valueName>NDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Related</controllingFieldValue>
+            <valueName>App Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Related</controllingFieldValue>
+            <valueName>DND Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Related</controllingFieldValue>
+            <valueName>E-Mandate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Related</controllingFieldValue>
+            <valueName>Insurance Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Related</controllingFieldValue>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Payment link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Related</controllingFieldValue>
+            <valueName>Unable To Access Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Engagement</controllingFieldValue>
+            <valueName>Call Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Call</controllingFieldValue>
+            <valueName>Welcome Calling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Account Opening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Change of Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Change of Bank Mandate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Change of Broker / Distributor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Change of Email Id</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Change of Mobile Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Change of Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Commission related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Demat related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Maintenance</controllingFieldValue>
+            <valueName>Additional/Deletion Nominee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Confirmations</controllingFieldValue>
+            <valueName>Bank / Balance Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Confirmations</controllingFieldValue>
+            <valueName>Redemption Payout Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Confirmations</controllingFieldValue>
+            <valueName>Distribution Payout Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Request</controllingFieldValue>
+            <valueName>Online Login related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Request</controllingFieldValue>
+            <valueName>Investor related details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Request</controllingFieldValue>
+            <valueName>Distributor related details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Request</controllingFieldValue>
+            <valueName>Transfer of units requirement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Request</controllingFieldValue>
+            <valueName>Forms - AOF/ Redemption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taxation</controllingFieldValue>
+            <valueName>Requirement of Form 64C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Taxation</controllingFieldValue>
+            <valueName>Details required for TDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial transaction</controllingFieldValue>
+            <valueName>Redemption of units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial transaction</controllingFieldValue>
+            <valueName>Brokerage Payout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>Account Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>Tax Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>Performance Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>Transaction History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>DO Mails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Marketing Mails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>No Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Amount Not Debited From Bank Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Bank account number change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Cancel insurance policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Change Email Id</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Disbursement Related Amount Not Credited-</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Double Disbursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <controllingFieldValue>Bureau Related</controllingFieldValue>
+            <valueName>DPD Correction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Emi amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Emi Amount Received Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Emi Bounced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>EMI Date change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>EMI Double Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>EMI Due Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Emi Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Emi Wrongly Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Excess EMI debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Limit Increase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Agreement Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan application status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Cancellation Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Resturcturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Loan Sanction Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Moratorium Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>NACH Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Name Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>New Loan Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Overdue issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Processing Charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Repayment Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Request change in email id</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Request for Phone number change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Restructure request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Sanction Limit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>SOA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Tax refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>TDS Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Tenure Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Phone Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Loan Related</controllingFieldValue>
+            <valueName>Branch address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unaware of Partnership</controllingFieldValue>
+            <controllingFieldValue>Bureau Related</controllingFieldValue>
+            <valueName>Bureau Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unaware of Partnership</controllingFieldValue>
+            <valueName>Loan Not Taken From NACL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bureau Related</controllingFieldValue>
+            <valueName>Bureau And NOC</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

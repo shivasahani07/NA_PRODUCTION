@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Subject__c</columns>
+    <columns>Process_Path_Task_Detail_End__c</columns>
+    <columns>Process_Path_Task_Detail_Start__c</columns>
+    <columns>Document_Sharing_Status__c</columns>
+    <columns>Is_Document_Sharing_Path__c</columns>
+    <columns>Process_Execution_Condition__c</columns>
+    <columns>Process_Attribute__c</columns>
+    <columns>Process_Path__c</columns>
+    <columns>Process_Path_Type__c</columns>
+    <columns>isActive__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

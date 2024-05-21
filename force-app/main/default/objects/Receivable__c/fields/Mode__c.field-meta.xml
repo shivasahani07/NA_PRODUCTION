@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mode__c</fullName>
+    <defaultValue>&apos;Not Available&apos;</defaultValue>
+    <externalId>false</externalId>
+    <label>Mode</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Available</fullName>
+                <default>false</default>
+                <label>Not Available</label>
+            </value>
+            <value>
+                <fullName>Deduction at Source</fullName>
+                <default>false</default>
+                <label>Deduction at Source</label>
+            </value>
+            <value>
+                <fullName>UPI</fullName>
+                <default>false</default>
+                <label>UPI</label>
+            </value>
+            <value>
+                <fullName>IMPS</fullName>
+                <default>false</default>
+                <label>IMPS</label>
+            </value>
+            <value>
+                <fullName>NEFT</fullName>
+                <default>false</default>
+                <label>NEFT</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+                <label>Cheque</label>
+            </value>
+            <value>
+                <fullName>Self Funded</fullName>
+                <default>false</default>
+                <label>Self Funded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

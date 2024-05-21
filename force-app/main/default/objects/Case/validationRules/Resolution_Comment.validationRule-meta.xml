@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Comment</fullName>
+    <active>false</active>
+    <description>Resolution Comment mandatory for closed cases</description>
+    <errorConditionFormula>AND( ISCHANGED(Status), Resolution_Commnets__c == null, text(Status) ==&apos;Closed&apos;)</errorConditionFormula>
+    <errorMessage>Resolution Comment mandatory for closed cases</errorMessage>
+</ValidationRule>

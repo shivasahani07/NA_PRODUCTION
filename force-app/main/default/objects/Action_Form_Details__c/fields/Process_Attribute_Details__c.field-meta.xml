@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Attribute_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>Process Attribute Details</label>
+    <referenceTo>Process_Attribute_Details__c</referenceTo>
+    <relationshipLabel>Action Form Details</relationshipLabel>
+    <relationshipName>Action_Form_Details</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

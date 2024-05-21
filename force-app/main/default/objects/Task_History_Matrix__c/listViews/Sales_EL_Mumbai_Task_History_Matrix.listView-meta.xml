@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_EL_Mumbai_Task_History_Matrix</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Sales - EL Mumbai</label>
+    <queue>Sales_EL_Mumbai</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

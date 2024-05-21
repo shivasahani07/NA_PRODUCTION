@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Activate_Communication_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Activate Communication Template</shortDescription>
+        <value>False</value>
+    </labels>
+    <labels>
+        <fullName>AuditAPIFailedStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AuditAPIFailedStatus</shortDescription>
+        <value>Failed</value>
+    </labels>
+    <labels>
+        <fullName>AuditAPIStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AuditAPISuccessStatus</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>BreakLine</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BreakLine</shortDescription>
+        <value>&lt;br/&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Call_Connected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Connected</shortDescription>
+        <value>Connected</value>
+    </labels>
+    <labels>
+        <fullName>Call_Disconnect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Disconnect</shortDescription>
+        <value>Call Disconnect</value>
+    </labels>
+    <labels>
+        <fullName>Call_Inbound_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call_Inbound_Type</shortDescription>
+        <value>inbound.call.dial</value>
+    </labels>
+    <labels>
+        <fullName>Call_Not_Connected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Not Connected</shortDescription>
+        <value>Not Connected</value>
+    </labels>
+    <labels>
+        <fullName>Call_Outbound_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Outbound Type</shortDescription>
+        <value>outbound.manual.dial</value>
+    </labels>
+    <labels>
+        <fullName>Call_Result</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call_Result_No_Connect</shortDescription>
+        <value>CALL_DROP,CALL_HANGUP,CALL_NOT_PICKED</value>
+    </labels>
+    <labels>
+        <fullName>Case_Default_Owner_Assignment_UserList</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Default Owner Assignment UserList</shortDescription>
+        <value>Salesforce API Only System Integrations, platform.intuser@northernarc.com,Customer Service External,System Administrator,Lohia (Admin),</value>
+    </labels>
+    <labels>
+        <fullName>Case_No_Auto_Reply_Emails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case No Auto Reply Emails</shortDescription>
+        <value>Crm.Operations@NorthernArc.com,customersupport@northernarc.com,	gro1@northernarc.com,nodal.officer@northernarc.com,operations.investments@northernarc.com</value>
+    </labels>
+    <labels>
+        <fullName>Case_No_Validation_SubCategory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_No_Validation_SubCategory</shortDescription>
+        <value>Marketing Mails,Call Back, Account Opening ,Bank / Balance Confirmation,Change of Address,Change of Bank Mandate,Change of Broker / Distributor,Change of Email Id,Change of Mobile Number,Change of Name,Commission related,Demat related,Online Login related,Investor related details,Distributor related details,Requirement of Form 64C ,Details required for TDS,Redemption Payout Details,Distribution Payout Details,Transfer of units requirement,Forms - AOF/ Redemption,Redemption of units,Brokerage Payout,Account Statement,Tax Statement,Performance Report,Transaction History, Others</value>
+    </labels>
+    <labels>
+        <fullName>Case_Partner_Email_Ids</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Partner_Email_Ids</shortDescription>
+        <value>chqbook.com,
+earlysalary.com,
+finnable.com,
+indifi.com,
+krazybee.com,
+lendingkart.com,
+werize.com,
+sindhujamicrocredit.com,
+sliceit.com,
+smartcoin.co.in,
+smecorner.com,
+sonataindia.com,
+udaan.com,
+uni.club,
+velocity.in,
+zestmoney.in,
+otocapital.in,
+fairmoney.io,
+lightmicrofinance.com,
+paysense.in,
+svasti.in,
+stashfin.com,
+cashe.co.in,</value>
+    </labels>
+    <labels>
+        <fullName>Case_Profile_Name_Allowe_Edit_For_Queue_Owner_Records</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Profile_Name_Allowe_Edit_For_Queue_Owner_Records</shortDescription>
+        <value>None,System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>Case_Queue_Owner_Not_Change</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Queue Owner Not Change</shortDescription>
+        <value>CXO - Customer Service,NodalGRORBI</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Closed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Status_Closed</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Customer_Replied_Back</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Status_Customer_Replied_Back</shortDescription>
+        <value>Customer Replied Back</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Open</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Status Open</shortDescription>
+        <value>New,On Hold, Escalated, Critical</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Partener_Replied_Back</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Status_Partener_Replied_Back</shortDescription>
+        <value>Partener Replied Back</value>
+    </labels>
+    <labels>
+        <fullName>Case_Status_Reopened</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Status_Reopened</shortDescription>
+        <value>Re-Opened</value>
+    </labels>
+    <labels>
+        <fullName>Case_Trigger_Handler</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Trigger Handler</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>Case_Validation_Rule_Exception_User_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Validation Rule Exception User List</shortDescription>
+        <value>Platform Integration User</value>
+    </labels>
+    <labels>
+        <fullName>Case_Web_EmailID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case_Web_EmailID</shortDescription>
+        <value>reachus@northernarc.com</value>
+    </labels>
+    <labels>
+        <fullName>Cheque_Cancellation_Reason</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cheque_Cancellation_Reason</shortDescription>
+        <value>Stale Cheque – to be cancelled and reissue,Customer might not be interested in taking the Loan,BT financier will accept payment only from the Borrower not from the financier,Beneficiary name mismatch/wrong,BT financier will not accept the payment mode Cheque,Cheque amount does not match as per the Foreclosure letter (FCL) / Statement of Account (SOA),Cheque to be issued as a single payment</value>
+    </labels>
+    <labels>
+        <fullName>ClevertapAPIkey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clevertap APIkey</shortDescription>
+        <value>Q1ZYYjkzUEpOV2FwbVF0TE8=</value>
+    </labels>
+    <labels>
+        <fullName>Default_Communication_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Communication Number</shortDescription>
+        <value>9333339070</value>
+    </labels>
+    <labels>
+        <fullName>DocumentHandler_Status_For_Dispatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocumentHandler_Status_For_Dispatch</shortDescription>
+        <value>Received
+Approved
+Memo Executed</value>
+    </labels>
+    <labels>
+        <fullName>Document_Handler_Status_Exempted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Document Handler Status Exempted</shortDescription>
+        <value>Exempted</value>
+    </labels>
+    <labels>
+        <fullName>Document_Handler_Status_Sync_with_ExtendedsobjectId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Document_Handler_Status_Sync_with_ExtendedsobjectId</shortDescription>
+        <value>Request Cancellation</value>
+    </labels>
+    <labels>
+        <fullName>EL_Opp_Default_Owner_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EL Opp Default Owner Email</shortDescription>
+        <value>vishal.tiwari@northernarc.com</value>
+    </labels>
+    <labels>
+        <fullName>FinancialEntityACDetails_PennyDropCallOutEndPoint</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FinancialEntityACDetails PennyDropCallOutEndPoint</shortDescription>
+        <value>https://nimbusdev.northernarc.com/n-disbursement/api/doPennydrop?partnerCin=</value>
+    </labels>
+    <labels>
+        <fullName>FinancialEntityACDetails_UpdateStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FinancialEntityACDetails_UpdateStatusEndPoint</shortDescription>
+        <value>https://nimbusdev.northernarc.com/n-disbursement/api/updateStatus?transactionId=</value>
+    </labels>
+    <labels>
+        <fullName>FinancialEntityACDetails_Verification_Status_inprogress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FinancialEntityACDetails_Verification_Status_inprogress</shortDescription>
+        <value>In progress</value>
+    </labels>
+    <labels>
+        <fullName>FinancialEntityACDetails_getPennyDropStatusbyBatchIdEndPoint</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FinancialEntityACDetails_getPennyDropStatusbyBatchIdEndPoint</shortDescription>
+        <value>https://nimbusqa.northernarc.com/n-disbursement/api/getStatusByBatchId?batchId=</value>
+    </labels>
+    <labels>
+        <fullName>Financial_Entity_Disburse_Amount_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Financial_Entity_Disburse_Amount_Validation</shortDescription>
+        <value>Financial Institute</value>
+    </labels>
+    <labels>
+        <fullName>Flow_Failed_Flag</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Flow_Failed_Flag</shortDescription>
+        <value>dsfd</value>
+    </labels>
+    <labels>
+        <fullName>GoogleApikey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GoogleApikey</shortDescription>
+        <value>AIzaSyB4SPqkO0ZQbxT-EU4l886H9Y3ipf1NMW0</value>
+    </labels>
+    <labels>
+        <fullName>GoogleMapReverseGeocodingAPIKey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GoogleMapReverseGeocodingAPIKey</shortDescription>
+        <value>AIzaSyB4SPqkO0ZQbxT-EU4l886H9Y3ipf1NMW0</value>
+    </labels>
+    <labels>
+        <fullName>Integration_User_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Integration User ID</shortDescription>
+        <value>005C7000000IMuXIAW</value>
+    </labels>
+    <labels>
+        <fullName>MemoCreation_BT_Eligible_LoanCategories</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MemoCreation_BT_Eligible_LoanCategories</shortDescription>
+        <value>BTC</value>
+    </labels>
+    <labels>
+        <fullName>MemoCreatione_EntityType_BT_Eligible</fullName>
+        <categories>Entity_Type__c Financial_Entity__c Memo Creation</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MemoCreatione EntityType BT Eligible</shortDescription>
+        <value>Financial Institute (BT)</value>
+    </labels>
+    <labels>
+        <fullName>MemoCreatione_EntityType_Debt_Eligible</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MemoCreatione EntityType Debt Eligible</shortDescription>
+        <value>Financial Institute (Debt)</value>
+    </labels>
+    <labels>
+        <fullName>NimbusBaseUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LMS_NimbusLoanBaseUrl</shortDescription>
+        <value>https://docapital.northernarc.com:8081/perdix-client/#/Page/Engine/customer360.loans.LoanDetails/</value>
+    </labels>
+    <labels>
+        <fullName>NimbusCustomerBaseUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LMS_NimbusCustomerBaseUrl</shortDescription>
+        <value>https://docapital.northernarc.com:8081/perdix-client/#/Page/Engine/customer360.loans.LoanDetails/</value>
+    </labels>
+    <labels>
+        <fullName>Notify_Email_Reply_Case_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notify_Email_Reply_Case_Status</shortDescription>
+        <value>Replied Back</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OpportunityUrl</shortDescription>
+        <value>https://northernarc.lightning.force.com/lightning/r/Opportunity/</value>
+    </labels>
+    <labels>
+        <fullName>Orgwide_emailAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Orgwide_emailAddress</shortDescription>
+        <value>customersupport@northernarc.com</value>
+    </labels>
+    <labels>
+        <fullName>Payable_IsActive_False_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payable_IsActive_False_Status</shortDescription>
+        <value>Request Cancellation</value>
+    </labels>
+    <labels>
+        <fullName>Payables_Status_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Payables_Status_Failed</shortDescription>
+        <value>Cancelled,Failed</value>
+    </labels>
+    <labels>
+        <fullName>PerdixBaseUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LMS_PerdixLoanBaseUrl</shortDescription>
+        <value>https://docapital.northernarc.com:8081/perdix-client/#/Page/Engine/customer360.loans.LoanDetails/</value>
+    </labels>
+    <labels>
+        <fullName>PerdixCustomerBaseUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LMS_PerdixCustomerBaseUrl</shortDescription>
+        <value>https://docapital.northernarc.com:8081/perdix-client/#/Page/Customer360/</value>
+    </labels>
+    <labels>
+        <fullName>SalesforceUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SalesforceUrl</shortDescription>
+        <value>https://northernarc.lightning.force.com/</value>
+    </labels>
+    <labels>
+        <fullName>System_IntegrationUserId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System_IntegrationUserId</shortDescription>
+        <value>005C7000000ICqNIAW</value>
+    </labels>
+    <labels>
+        <fullName>Task_Default_Onwer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_Default_Onwer</shortDescription>
+        <value>005C7000000IMuX</value>
+    </labels>
+    <labels>
+        <fullName>Task_Mergeable_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_Mergeable_Status</shortDescription>
+        <value>Draft,Open</value>
+    </labels>
+    <labels>
+        <fullName>Task_ReplacePPathTaskIds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_ReplacePPathTaskIds</shortDescription>
+        <value>Process_Path_Initiated_Task_Id__c,Execution_Depended_on_Task_Ids__c,Process_Path_Deviation_Initiated_Task_Id__c,Process_Path_Merged_Task_Ids__c,Process_Share_Document_Task_Ids__c</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_Closed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_Status_Closed</shortDescription>
+        <value>Completed,Rejected</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_Completed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Status Completed</shortDescription>
+        <value>Completed</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_Document_Pending</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_Status_Document_Pending</shortDescription>
+        <value>Document Pending</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_Draft</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_Status_Draft</shortDescription>
+        <value>Draft</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_Failed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Status Failed</shortDescription>
+        <value>Failed</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_Initiated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Status Initiated</shortDescription>
+        <value>Initiated</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_NoOwnerAssigned</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_Status_NoOwnerAssigned</shortDescription>
+        <value>No Owner Assigned</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_NoQueueExists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task_Status_NoQueueExists</shortDescription>
+        <value>No Queue Exists</value>
+    </labels>
+    <labels>
+        <fullName>Task_Status_Open</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Status Open</shortDescription>
+        <value>Open</value>
+    </labels>
+</CustomLabels>

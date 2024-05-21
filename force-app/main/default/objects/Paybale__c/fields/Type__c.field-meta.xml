@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sanction Amount</fullName>
+                <default>false</default>
+                <label>Sanction Amount</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Processing Fee</fullName>
+                <default>false</default>
+                <label>Processing Fee</label>
+            </value>
+            <value>
+                <fullName>Processing Fee GST</fullName>
+                <default>false</default>
+                <label>Processing Fee GST</label>
+            </value>
+            <value>
+                <fullName>CERSAI</fullName>
+                <default>false</default>
+                <label>CERSAI</label>
+            </value>
+            <value>
+                <fullName>CERSAI GST</fullName>
+                <default>false</default>
+                <label>CERSAI GST</label>
+            </value>
+            <value>
+                <fullName>Pre EMI Principal</fullName>
+                <default>false</default>
+                <label>Pre EMI Principal</label>
+            </value>
+            <value>
+                <fullName>Pre EMI Interest</fullName>
+                <default>false</default>
+                <label>Pre EMI Interest</label>
+            </value>
+            <value>
+                <fullName>EMI Principal</fullName>
+                <default>false</default>
+                <label>EMI Principal</label>
+            </value>
+            <value>
+                <fullName>EMI Interest</fullName>
+                <default>false</default>
+                <label>EMI Interest</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finacial_Entity_Details__c</fullName>
+    <externalId>false</externalId>
+    <label>Finacial Entity Details</label>
+    <referenceTo>Financial_Entity__c</referenceTo>
+    <relationshipLabel>Paybales</relationshipLabel>
+    <relationshipName>Paybales</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
